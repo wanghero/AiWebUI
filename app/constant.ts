@@ -539,6 +539,13 @@ const openaiModels = [
   "o3-mini",
   "o3",
   "o4-mini",
+  "o4-mini-high",
+  "gpt-5.1",
+  "gpt-5.1-mini",
+  "gpt-5.1-nano",
+  "gpt-5.1-chat",
+  "gpt-5.1-chat-latest",
+  "gpt-image-1",
 ];
 
 const googleModels = [
@@ -561,7 +568,10 @@ const googleModels = [
   "gemini-2.0-pro-exp",
   "gemini-2.0-pro-exp-02-05",
   "gemini-2.5-pro-preview-06-05",
-  "gemini-2.5-pro"
+  "gemini-2.5-pro",
+  "gemini-2.5-flash",
+  "gemini-2.5-flash-lite",
+  "gemini-3-pro",
 ];
 
 const anthropicModels = [

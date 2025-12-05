@@ -293,7 +293,7 @@ export function isVisionModel(model: string) {
 }
 
 export function isDalle3(model: string) {
-  return "dall-e-3" === model;
+  return "dall-e-3" === model || "gpt-image-1" === model;
 }
 
 export function getTimeoutMSByModel(model: string) {
@@ -301,6 +301,7 @@ export function getTimeoutMSByModel(model: string) {
   if (
     model.startsWith("dall-e") ||
     model.startsWith("dalle") ||
+    model === "gpt-image-1" ||
     model.startsWith("o1") ||
     model.startsWith("o3") ||
     model.includes("deepseek-r") ||
